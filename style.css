@@ -37,4 +37,67 @@
 .link a {
     text-decoration: none;
     color: #f9faf8;
+    font-size: 18px;
 }
+
+
+
+
+
+.hero {
+    height: 400px;
+    margin: 0 auto;
+    background-color: #1f2837;
+    color: #f9faf8;
+}
+
+
+.hero-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 50px;
+}
+
+.box-one, .box-two {
+    
+    width: 500px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;   
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+.button {
+    background-color: #3882F6;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.box-two {
+    max-width: 500px;
+    
+}
+
+.hero-image {
+    width: 500px;
+    height: auto;
+}
+
